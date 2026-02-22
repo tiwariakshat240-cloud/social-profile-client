@@ -6,10 +6,10 @@ export default function Footer() {
             <footer className="mt-32 px-6 md:px-16 lg:px-24 xl:px-32 w-full text-sm text-slate-500 bg-white pt-10">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-14">
                     <div className="sm:col-span-2 lg:col-span-1">
-                        <a href="/">
-                            <img src={assets.logo} alt="logo" />
+                        <a href="/" className="h-10 flex items-center font-bold text-2xl text-indigo-600 cursor-pointer select-none tracking-wide">
+                            SocialX
                         </a>
-                        <p className="text-sm/7 mt-6">flipearn is a social media marketplace . We are the leading social media marketplace that connects brands with their customers With our user-friendly interface.</p>
+                        <p className="text-sm/7 mt-6">SocialX is a social media marketplace . We are the leading social media marketplace that connects brands with their customers With our user-friendly interface.</p>
                     </div>
                     <div className="flex flex-col lg:items-center lg:justify-center">
                         <div className="flex flex-col text-sm space-y-2.5">
@@ -32,7 +32,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <p className="py-4 text-center border-t mt-6 border-slate-200">
-                    Copyright {new Date().getFullYear()} © GreatStack All Right Reserved.
+                    Copyright {new Date().getFullYear()} © SocialX All Right Reserved.
                 </p>
             </footer>
         </>

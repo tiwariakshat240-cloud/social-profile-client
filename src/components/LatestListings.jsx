@@ -12,10 +12,10 @@ const LatestListings = () => {
 
             <div className='flex flex-col gap-6 px-6'>
                 {listings
-                    .slice()
-                    .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
-                    .slice(0, 4)
-                    .map((listing, index) => (
+                    ?.slice()
+                    ?.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+                    ?.slice(0, 4)
+                    ?.map((listing, index) => (
                         <div key={index} className='mx-auto w-full max-w-3xl rounded-xl'>
                             <ListingCard listing={listing} />
                         </div>
